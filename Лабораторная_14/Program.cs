@@ -17,7 +17,7 @@ namespace Лабораторная_14
 
         static void Main(string[] args)
         {
-            Console.WriteLine("HELLO");
+            Console.WriteLine("HELLO!");
             //заполнение документов
             Console.WriteLine("ТЫ ЧЕ АЛЕ, ВЗДУМАЛ ЛЕЗТЬ НА МЕНЯ");
             Queue<List<Document>> documents = new Queue<List<Document>>();
