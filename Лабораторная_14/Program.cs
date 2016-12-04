@@ -17,6 +17,7 @@ namespace Лабораторная_14
 
         static void Main(string[] args)
         {
+            Console.WriteLine("HELLO");
             //заполнение документов
             Queue<List<Document>> documents = new Queue<List<Document>>();
             int count = rnd.Next(3, 10);
