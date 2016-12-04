@@ -19,6 +19,7 @@ namespace Лабораторная_14
         {
             Console.WriteLine("HELLO");
             //заполнение документов
+            Console.WriteLine("ТЫ ЧЕ АЛЕ, ВЗДУМАЛ ЛЕЗТЬ НА МЕНЯ");
             Queue<List<Document>> documents = new Queue<List<Document>>();
             int count = rnd.Next(3, 10);
             for (int i = 0; i < count; i++)
